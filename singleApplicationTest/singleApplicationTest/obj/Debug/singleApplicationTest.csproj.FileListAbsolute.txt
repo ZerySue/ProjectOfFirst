@@ -1,0 +1,12 @@
+E:\test\singleApplicationTest\singleApplicationTest\bin\Debug\singleApplicationTest.exe.config
+E:\test\singleApplicationTest\singleApplicationTest\bin\Debug\singleApplicationTest.exe
+E:\test\singleApplicationTest\singleApplicationTest\bin\Debug\singleApplicationTest.pdb
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\MainWindow.baml
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\MainWindow.g.cs
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\App.g.cs
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest_MarkupCompile.cache
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest.g.resources
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest.Properties.Resources.resources
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest.csproj.GenerateResource.Cache
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest.exe
+E:\test\singleApplicationTest\singleApplicationTest\obj\Debug\singleApplicationTest.pdb

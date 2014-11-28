@@ -1,0 +1,1 @@
+E:\test\SilverlightApplication1\SilverlightApplication1.Web\SilverlightApplication1.Web.csproj,635502761705542753,IService1.cs,Properties\AssemblyInfo.cs,Service1.svc.cs,

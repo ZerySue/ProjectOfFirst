@@ -1,0 +1,12 @@
+E:\test\SLDemo1\SLDemo1\Bin\Debug\SLDemo1.dll
+E:\test\SLDemo1\SLDemo1\Bin\Debug\SLDemo1.pdb
+E:\test\SLDemo1\SLDemo1\Bin\Debug\AppManifest.xaml
+E:\test\SLDemo1\SLDemo1\Bin\Debug\SLDemo1.xap
+E:\test\SLDemo1\SLDemo1\Bin\Debug\SLDemo1TestPage.html
+E:\test\SLDemo1\SLDemo1\obj\Debug\SLDemo1.csprojResolveAssemblyReference.cache
+E:\test\SLDemo1\SLDemo1\obj\Debug\App.g.cs
+E:\test\SLDemo1\SLDemo1\obj\Debug\MainPage.g.cs
+E:\test\SLDemo1\SLDemo1\obj\Debug\SLDemo1.g.resources
+E:\test\SLDemo1\SLDemo1\obj\Debug\SLDemo1.dll
+E:\test\SLDemo1\SLDemo1\obj\Debug\SLDemo1.pdb
+E:\test\SLDemo1\SLDemo1\obj\Debug\XapCacheFile.xml

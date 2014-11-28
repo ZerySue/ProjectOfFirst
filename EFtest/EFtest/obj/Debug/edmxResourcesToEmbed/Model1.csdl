@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="T_Class">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="T_Student" Relationship="Self.FK_ClassStudent" FromRole="T_Class" ToRole="T_Student" />
+    <NavigationProperty Name="T_Teacher" Relationship="Self.FK_ClassTeacher" FromRole="T_Class" ToRole="T_Teacher" />
+  </EntityType>
+  <EntityType Name="T_Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ClassID" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="T_Class" Relationship="Self.FK_ClassStudent" FromRole="T_Student" ToRole="T_Class" />
+  </EntityType>
+  <EntityType Name="T_Teacher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ClassID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="T_Class" Relationship="Self.FK_ClassTeacher" FromRole="T_Teacher" ToRole="T_Class" />
+  </EntityType>
+  <Association Name="FK_ClassStudent">
+    <End Role="T_Class" Type="Self.T_Class" Multiplicity="1" />
+    <End Role="T_Student" Type="Self.T_Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Class">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="T_Student">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClassTeacher">
+    <End Role="T_Class" Type="Self.T_Class" Multiplicity="1" />
+    <End Role="T_Teacher" Type="Self.T_Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Class">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="T_Teacher">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="T_Class" EntityType="Self.T_Class" />
+    <EntitySet Name="T_Student" EntityType="Self.T_Student" />
+    <EntitySet Name="T_Teacher" EntityType="Self.T_Teacher" />
+    <AssociationSet Name="FK_ClassStudent" Association="Self.FK_ClassStudent">
+      <End Role="T_Class" EntitySet="T_Class" />
+      <End Role="T_Student" EntitySet="T_Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClassTeacher" Association="Self.FK_ClassTeacher">
+      <End Role="T_Class" EntitySet="T_Class" />
+      <End Role="T_Teacher" EntitySet="T_Teacher" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

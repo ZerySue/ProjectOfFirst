@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo1", "Demo1\Demo1.csproj", "{81959184-8066-408F-8984-D1023A6C19B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMDemo1", "MVVMDemo1\MVVMDemo1.csproj", "{3877FE5E-A1D0-4452-8C0C-01B180F7663D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMDemo2", "MVVMDemo2\MVVMDemo2.csproj", "{951A8588-C4BB-45F8-B513-F46B6526D96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81959184-8066-408F-8984-D1023A6C19B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81959184-8066-408F-8984-D1023A6C19B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81959184-8066-408F-8984-D1023A6C19B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81959184-8066-408F-8984-D1023A6C19B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3877FE5E-A1D0-4452-8C0C-01B180F7663D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3877FE5E-A1D0-4452-8C0C-01B180F7663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3877FE5E-A1D0-4452-8C0C-01B180F7663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3877FE5E-A1D0-4452-8C0C-01B180F7663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951A8588-C4BB-45F8-B513-F46B6526D96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951A8588-C4BB-45F8-B513-F46B6526D96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951A8588-C4BB-45F8-B513-F46B6526D96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951A8588-C4BB-45F8-B513-F46B6526D96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

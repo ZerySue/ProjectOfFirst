@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_Class">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClassID" Type="int" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_Teacher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ClassID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ClassStudent">
+    <End Role="T_Class" Type="Self.T_Class" Multiplicity="1" />
+    <End Role="T_Student" Type="Self.T_Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Class">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="T_Student">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClassTeacher">
+    <End Role="T_Class" Type="Self.T_Class" Multiplicity="1" />
+    <End Role="T_Teacher" Type="Self.T_Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Class">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="T_Teacher">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolDBModelStoreContainer">
+    <EntitySet Name="T_Class" EntityType="Self.T_Class" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Student" EntityType="Self.T_Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Teacher" EntityType="Self.T_Teacher" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ClassStudent" Association="Self.FK_ClassStudent">
+      <End Role="T_Class" EntitySet="T_Class" />
+      <End Role="T_Student" EntitySet="T_Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClassTeacher" Association="Self.FK_ClassTeacher">
+      <End Role="T_Class" EntitySet="T_Class" />
+      <End Role="T_Teacher" EntitySet="T_Teacher" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

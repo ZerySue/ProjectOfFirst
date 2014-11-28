@@ -1,0 +1,13 @@
+E:\test\WpfDongHua\WpfDongHua\bin\Debug\WpfDongHua.exe.config
+E:\test\WpfDongHua\WpfDongHua\bin\Debug\WpfDongHua.exe
+E:\test\WpfDongHua\WpfDongHua\bin\Debug\WpfDongHua.pdb
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\MainWindow.baml
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\MainWindow.g.cs
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\App.g.cs
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua_MarkupCompile.cache
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.g.resources
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.Properties.Resources.resources
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.csproj.GenerateResource.Cache
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.exe
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.pdb
+E:\test\WpfDongHua\WpfDongHua\obj\Debug\WpfDongHua.csprojResolveAssemblyReference.cache

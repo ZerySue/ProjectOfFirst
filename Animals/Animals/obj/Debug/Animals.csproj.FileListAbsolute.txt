@@ -1,0 +1,16 @@
+E:\test\Animals\Animals\Bin\Debug\favicon.ico
+E:\test\Animals\Animals\Bin\Debug\Animals.dll
+E:\test\Animals\Animals\Bin\Debug\Animals.pdb
+E:\test\Animals\Animals\Bin\Debug\AppManifest.xaml
+E:\test\Animals\Animals\Bin\Debug\Animals.xap
+E:\test\Animals\Animals\Bin\Debug\TestPage.html
+E:\test\Animals\Animals\obj\Debug\App.g.cs
+E:\test\Animals\Animals\obj\Debug\MainPage.g.cs
+E:\test\Animals\Animals\obj\Debug\parts\bird.g.cs
+E:\test\Animals\Animals\obj\Debug\Animals.g.resources
+E:\test\Animals\Animals\obj\Debug\Animals.dll
+E:\test\Animals\Animals\obj\Debug\Animals.pdb
+E:\test\Animals\Animals\obj\Debug\XapCacheFile.xml
+E:\test\Animals\Animals\Bin\Debug\Microsoft.Expression.Interactions.dll
+E:\test\Animals\Animals\Bin\Debug\System.Windows.Interactivity.dll
+E:\test\Animals\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache

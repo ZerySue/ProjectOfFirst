@@ -1,0 +1,6 @@
+﻿<xapCache source="E:\test\Animals\Animals\Bin\Debug\Animals.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2014/10/20 9:31:04">
+  <file source="E:\test\Animals\Animals\obj\Debug\Animals.dll" archivePath="Animals.dll" lastWriteTime="2014/10/20 9:31:04" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v5.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="2013/2/18 14:32:08" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v5.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="2013/2/18 14:32:08" />
+  <file source="E:\test\Animals\Animals\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/10/17 19:24:02" />
+</xapCache>

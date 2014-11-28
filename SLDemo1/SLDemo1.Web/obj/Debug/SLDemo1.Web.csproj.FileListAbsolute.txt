@@ -1,0 +1,6 @@
+E:\test\SLDemo1\SLDemo1.Web\bin\SLDemo1.Web.dll.config
+E:\test\SLDemo1\SLDemo1.Web\bin\SLDemo1.Web.dll
+E:\test\SLDemo1\SLDemo1.Web\bin\SLDemo1.Web.pdb
+E:\test\SLDemo1\SLDemo1.Web\obj\Debug\SLDemo1.Web.csprojResolveAssemblyReference.cache
+E:\test\SLDemo1\SLDemo1.Web\obj\Debug\SLDemo1.Web.dll
+E:\test\SLDemo1\SLDemo1.Web\obj\Debug\SLDemo1.Web.pdb

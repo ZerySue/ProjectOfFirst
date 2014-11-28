@@ -1,0 +1,9 @@
+E:\test\EFtest\EFtest\bin\Debug\EFtest.exe.config
+E:\test\EFtest\EFtest\bin\Debug\EFtest.exe
+E:\test\EFtest\EFtest\bin\Debug\EFtest.pdb
+E:\test\EFtest\EFtest\bin\Debug\EntityFramework.dll
+E:\test\EFtest\EFtest\bin\Debug\EntityFramework.xml
+E:\test\EFtest\EFtest\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\test\EFtest\EFtest\obj\Debug\EFtest.csprojResolveAssemblyReference.cache
+E:\test\EFtest\EFtest\obj\Debug\EFtest.exe
+E:\test\EFtest\EFtest\obj\Debug\EFtest.pdb
